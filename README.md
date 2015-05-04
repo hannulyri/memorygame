@@ -45,7 +45,7 @@ node node_modules\protractor\bin\webdriver-manager update --standalone
 ```
 
 **Then run the tests:**  
-1. Open a console and run the project `mvn spring-boot:run`
-2. Open another console and start webdriver-manager `node node_modules\protractor\bin\webdriver-manager start`
-3. Open a third console and run the tests `protractor src\test\javascript\protractor\protractor.conf.js`
+1. Open a console and run the project `mvn spring-boot:run`  
+2. Open another console and start webdriver-manager `node node_modules\protractor\bin\webdriver-manager start`  
+3. Open a third console and run the tests `protractor src\test\javascript\protractor\protractor.conf.js`  
 
