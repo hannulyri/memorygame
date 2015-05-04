@@ -1,0 +1,20 @@
+{
+  "generator-jhipster": {
+    "baseName": "memorygame",
+    "packageName": "fi.hmp.memorygame",
+    "packageFolder": "fi/hmp/memorygame",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "useCompass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "7",
+    "rememberMeKey": "a5a30fcc9cdc39622a178b8a43bab7ac0f2742e4"
+  },
+  "generator-protractor": {}
+}

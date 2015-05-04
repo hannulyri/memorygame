@@ -1,0 +1,35 @@
+    <!-- begin:content -->
+    <div id="content">
+      <div class="container">
+        <!-- begin:top-title -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="page-title title-center">
+              <h1 translate="highscore.title">Highscore TOP10</h1>
+            </div>
+          </div>
+        </div>
+        <!-- end:top-title -->
+
+        <!-- begin:article -->
+        <div class="row wrapper-portfolio">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+              <table class="table table-bordered table-striped">
+               <thead>
+                <tr>
+                  <th translate="highscore.list.name">Name</th>
+                  <th translate="highscore.list.time">Time</th>
+                  <th translate="highscore.list.guesses">Guesses</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr ng-repeat="highscore in highscoreList">
+                  <td>{{highscore.name}}</td>
+                  <td>{{highscore.time}}</td>
+                  <td>{{highscore.guesses}}</td>
+                </tr>
+               </tbody>
+              </table>
+          </div>
+        </div>
+        <!-- end:article -->

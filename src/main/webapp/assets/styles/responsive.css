@@ -1,0 +1,79 @@
+@media screen and (min-width: 1251px) {
+	.image-resize-c {
+		height: 150px;
+		width: 150px;
+	}
+
+	.guessedcard {
+		height: 150px !important;
+		width: 150px !important;
+	}
+
+	.col-line-adjustment {
+		height: 150px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1250px) {
+	.image-resize-c {
+		height: 125px;
+		width: 125px;
+	}
+
+	.guessedcard {
+		height: 125px !important;
+		width: 125px !important;
+	}	
+
+	.col-line-adjustment {
+		height: 125px;		
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+	.image-resize-c {
+		height: 100px;
+		width: 100px;
+	}
+
+	.guessedcard {
+		height: 100px !important;
+		width: 100px !important;
+	}
+
+	.col-line-adjustment {
+		height: 100px;		
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+	.image-resize-c {
+		height: 75px;
+		width: 75px;
+	}
+
+	.guessedcard {
+		height: 75px !important;
+		width: 75px !important;
+	}
+
+	.col-line-adjustment {
+		height: 75px;		
+	}
+}
+
+@media screen and (max-width: 399px) {
+	.image-resize-c {
+		height: 50px;
+		width: 50px;
+	}
+
+	.guessedcard {
+		height: 50px !important;
+		width: 50px !important;
+	}
+
+	.col-line-adjustment {
+		height: 50px;		
+	}
+}

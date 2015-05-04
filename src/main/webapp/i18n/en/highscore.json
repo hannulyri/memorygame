@@ -1,0 +1,10 @@
+{
+    "highscore": {
+        "title": "Highscore TOP10",
+        "list": {
+            "name": "Name",
+            "time": "Time",
+            "guesses": "Guesses"
+        }
+    }
+}
